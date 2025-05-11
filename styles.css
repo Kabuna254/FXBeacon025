@@ -1023,15 +1023,6 @@ footer {
     }
 }
 
-/* Media query for extra small screens (max-width: 480px) */
-@media (max-width: 480px) {
-    .risk-column, /* Example: Risk Disclosure columns */
-    .service-column, /* Example: Service columns */
-    .picture-column, /* Example: Picture columns */
-    .testimonial { /* Example: Testimonial columns */
-        display: none; /* Hide the columns */
-    }
-}
 
 /* Media query for smaller screens (max-width: 768px) */
 @media (max-width: 768px) {
