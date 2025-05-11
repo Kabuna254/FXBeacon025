@@ -317,6 +317,7 @@ header {
     font-size: 2.5em; /* Match heading size of the services section */
     font-weight: bold;
     margin-bottom: 30px; /* Add spacing below the heading */
+    text-align: center; /* Center-align the heading */
 }
 
 .risk-disclosure-columns {
@@ -357,13 +358,10 @@ header {
 /* Container for the widgets */
 .feature-block {
     display: flex; /* Use flexbox for layout */
-    justify-content: space-between; /* Space out the widgets */
-    align-items: stretch; /* Stretch widgets to match the tallest one */
-    gap: 20px; /* Add space between the widgets */
-    flex-wrap: wrap; /* Ensure responsiveness on smaller screens */
-    padding: 20px -100px; /* Add padding to leave space near the edges */
-    margin: 50px 50px;
-    width: 100%; /* Ensure it spans the full width of the parent */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: auto; /* Allow the height to adjust dynamically */
+    margin-top: 40px; /* Add spacing above the iframe */
 }
 
 /* Smaller widget (TradingView Widget) */
