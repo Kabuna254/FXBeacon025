@@ -36,7 +36,7 @@ header {
     font-size: 1.5em;
     cursor: pointer;
     padding: 8px 12px;
-    background-color: #00471C;
+    background-color: #00471c;
     color: white;
     border-radius: 6px;
     transition: background-color 0.3s;
@@ -51,7 +51,7 @@ header {
     position: absolute;
     top: 0;
     left: 100%;
-    background-color: rgba(0, 71, 28, 0.95);
+    background-color: rgba(0, 71, 28, 0.658);
     padding: 15px;
     border-radius: 8px;
     z-index: 1000;
