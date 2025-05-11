@@ -1124,5 +1124,24 @@ footer {
     }
 }
 
+/* Adjust iframe width for smaller screens */
+@media (max-width: 768px) {
+    .feature-block iframe {
+        width: 95%; /* Make the iframe span almost full width */
+        height: 400px; /* Adjust height for smaller screens */
+        margin: 0 auto; /* Center the iframe horizontally */
+        display: block; /* Ensure proper centering */
+    }
+}
+
+/* Center the heading for smaller screens */
+@media (max-width: 768px) {
+    #risk-disclosure h2 {
+        text-align: center; /* Center-align the heading */
+        margin: 0 auto; /* Ensure proper centering */
+        font-size: 1.5rem; /* Adjust font size for smaller screens */
+    }
+}
+
 
 
