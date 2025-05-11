@@ -1,4 +1,5 @@
 # FXBeacon 🌐💱
+## WEB URL: fx-beacon025.vercel.app
 
 **FXBeacon** is a modern, responsive web platform delivering real-time forex insights and analytics. Built for both casual and serious traders, FXBeacon focuses on simplicity, interactivity, and performance.
 
