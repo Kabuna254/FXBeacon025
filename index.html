@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>FXBeacon</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+    <link rel="icon" href="Images/Img6.jpg" type="image/x-icon" />
+</head>
+<body>
+    <header>
+        <div class="logo">FXBeacon</div>
+
+        <div class="hamburger-wrapper">
+        <div class="hamburger-menu" onclick="toggleMenu()">☰</div>
+        <nav class="nav-menu" data-expanded="false">
+            <ul>
+            <li><a href="#welcome">Welcome</a></li>
+            <li><a href="#our-services">Our Services</a></li>
+            <li><a href="#about-us">About Us</a></li>
+            <li><a href="#risk-disclosure">Risk Disclosure</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            </ul>
+        </nav>
+        </div>
+        <button class="contact-btn"><a href="#contact">Contact Us</a></button>
+    </header>
+
+    <section id="welcome">
+        <h1>EMPOWERING TRADERS</h1>
+        <p>​Forex trading can be a path to financial freedom, but it’s also a challenging journey that requires knowledge,
+            discipline, and the right strategies. Whether you're new to Forex or looking to improve your skills, 
+            understanding the key principles of trading, managing your emotions, and analyzing the market are essential 
+            for success. In this guide, we'll cover everything you need to get started with Forex trading, including tips
+            on emotional control, strategic development, and market analysis.
+        </p>
+        <button class="learn-more-btn"><a href="#our-services">Learn More</a></button>
+
+        <div class="picture-columns">
+            <div class="picture-column"><img src="Images/Img1.jpg" alt="Picture 1" /></div>
+            <div class="picture-column middle"><img src="Images/Img2.jpg" alt="Picture 2" /></div>
+            <div class="picture-column"><img src="Images/Img3.jpg" alt="Picture 3" /></div>
+        </div>
+    </section>
+
+    <section id="our-services">
+        <h2>Our Services</h2>
+        <div class="services-container">
+            <div class="service-column">
+                <div class="service">
+                    <h3>Foundations of Forex Trading</h3>
+                    <p>Learn the basics of Forex trading, including currency pairs, pips, leverage, and margin, to build a strong foundation.
+                    </p>
+                </div>
+                <div class="service">
+                    <h3>Reading the Markets</h3>
+                    <p>Master technical and fundamental analysis, including chart patterns, indicators, and economic forces driving currencies.</p>
+                </div>
+                <div class="service">
+                    <h3>Strategic Tools</h3>
+                    <p>Discover essential tools like position size calculators, economic calendars, and trade journaling templates to improve your trading.</p>
+                </div>
+                <div class="service">
+                    <h3>Strategy Sessions</h3>
+                    <p>Find a trading style that fits you, from scalping to swing trading, and learn how to build and adapt your trading plan.</p>
+                </div>
+            </div>
+        <div class="service-column">
+            <div class="service">
+                <h3>Trading Psychology</h3>
+                <p>Develop emotional resilience, avoid common psychological traps, and stay disciplined in volatile markets.</p>
+            </div>
+            <div class="service">
+                <h3>Risk Management</h3>
+                <p>Learn to calculate risk-reward ratios, set stop-losses, and manage exposure like a professional portfolio manager.</p>
+            </div>
+            <div class="service">
+                <h3>Ask & Connect</h3>
+                <p>Engage with our community, ask questions, and connect with experts to grow your trading knowledge.</p>
+            </div>
+            <div class="service">
+                <h3>Customer Support</h3>
+                <p>Our dedicated customer support team is available around the clock to assist you with any Forex trading inquiries or issues. We are here to ensure your Forex trading journey is smooth and successful.</p>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section id="about-us">
+        <div class="about-us-container">
+            <div class="about-us-text">
+                <h2>About FXBeacon</h2>
+                <p>FXBeacon is dedicated to empowering traders with the knowledge, tools, and support they need to succeed in the Forex market. Our mission is to provide a clear, structured, and engaging learning experience for traders of all levels. Whether you're a beginner or an experienced trader, FXBeacon is here to guide you every step of the way.</p>
+                <img src="Images/Img4.jpg" alt="About Us Additional" class="about-us-text-image" />
+            </div>
+            <div class="about-us-image">
+                <img src="Images/Img5.jpg" alt="About Us" />
+            </div>
+        </div>
+    </section>
+    <section id="risk-disclosure">
+        <div class="risk-disclosure-container">
+            <div class="risk-disclosure-text">
+                <h2>Understanding Forex Trading Risks</h2>
+                <div class="risk-disclosure-columns">
+                    <div class="risk-column">
+                        <p>Forex trading involves risks, and it's important to be aware of the potential risks associated with trading online. Our risk disclosure statement outlines the risks involved in Forex trading and the measures we take to mitigate those risks for our clients.</p>
+                    </div>
+                    <div class="risk-column">
+                        <p>We prioritize transparency and risk management to ensure that our traders are well-informed and protected during every Forex trade. Your security and peace of mind are our top priorities.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="features">
+        <h2>Key Offerings</h2>
+        <h3>Real-Time Market Data</h3>
+            <p>Stay updated with live Forex market rates, economic indicators, and major financial headlines that affect currency movements. Our integrated news feed and market overview tools help you respond quickly to volatility and trends.
+            </p>
+        <!-- Real-Time Market Data Section -->
+        <div class="feature-block">
+            <!-- TradingView Widget BEGIN -->
+            <div class="tradingview-widget-container">
+                <div class="tradingview-widget-container__widget"></div>
+                <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
+                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async></script>
+                <script type="text/javascript">
+                new TradingView.widget(
+                    {
+                    "colorTheme": "light",
+                    "dateRange": "12M",
+                    "showChart": true,
+                    "locale": "en",
+                    "largeChartUrl": "https://www.tradingview.com/news/",
+                    "isTransparent": false,
+                    "showSymbolLogo": true,
+                    "showFloatingTooltip": false,
+                    "width": "400",
+                    "height": "550",
+                    "plotLineColorGrowing": "rgba(41, 98, 255, 1)",
+                    "plotLineColorFalling": "rgba(41, 98, 255, 1)",
+                    "gridLineColor": "rgba(46, 46, 46, 0)",
+                    "scaleFontColor": "rgba(15, 15, 15, 1)",
+                    "belowLineFillColorGrowing": "rgba(41, 98, 255, 0.12)",
+                    "belowLineFillColorFalling": "rgba(41, 98, 255, 0.12)",
+                    "belowLineFillColorGrowingBottom": "rgba(41, 98, 255, 0)",
+                    "belowLineFillColorFallingBottom": "rgba(41, 98, 255, 0)",
+                    "symbolActiveColor": "rgba(41, 98, 255, 0.12)",
+                    "tabs": [
+                    {
+                        "title": "Indices",
+                        "symbols": [
+                        {
+                            "s": "FOREXCOM:SPXUSD",
+                            "d": "S&P 500 Index"
+                        },
+                        {
+                            "s": "FOREXCOM:NSXUSD",
+                            "d": "US 100 Cash CFD"
+                        },
+                        {
+                            "s": "FOREXCOM:DJI",
+                            "d": "Dow Jones Industrial Average Index"
+                        },
+                        {
+                            "s": "INDEX:NKY",
+                            "d": "Japan 225"
+                        },
+                        {
+                            "s": "INDEX:DEU40",
+                            "d": "DAX Index"
+                        },
+                        {
+                            "s": "FOREXCOM:UKXGBP",
+                            "d": "FTSE 100 Index"
+                        },
+                        {
+                            "s": "OANDA:EURUSD",
+                            "d": "Euro Vs US Dollar"
+                        },
+                        {
+                            "s": "OANDA:GBPUSD",
+                            "d": "Great Britain Pound Vs US Dollar"
+                        },
+                        {
+                            "s": "OANDA:GBPJPY",
+                            "d": "Great Britain Pound Vs Japanese Yen"
+                        },
+                        {
+                            "s": "OANDA:USDJPY",
+                            "d": "US Dollar Vs Japanese Yen"
+                        },
+                        {
+                            "s": "OANDA:AUDUSD",
+                            "d": "Aussie Vs US Dollar"
+                        },
+                        {
+                            "s": "OANDA:USDCAD",
+                            "d": "US Dollar Vs Canadian Dollar"
+                        },
+                        {
+                            "s": "OANDA:USDCHF",
+                            "d": "US Dollar Vs Swiss Franc"
+                        },
+                        {
+                            "s": "OANDA:NZDUSD",
+                            "d": "New Zealand Dollar Vs US Dollar"
+                        },
+                        {
+                            "s": "BINANCE:BTCUSDT",
+                            "d": "Bitcoin Vs Tetherus"
+                        },
+                        {
+                            "s": "BINANCE:ETHUSDT",
+                            "d": "Ethereum Vs Tetherus"
+                        },
+                        {
+                            "s": "BINANCE:SOLUSDT",
+                            "d": "Solana Vs Tetherus"
+                        }
+                        ],
+                        "originalTitle": "Indices"
+                    },
+                    {
+                        "title": "Forex",
+                        "symbols": [
+                        {
+                            "s": "FX:EURUSD",
+                            "d": "EUR to USD"
+                        },
+                        {
+                            "s": "FX:GBPUSD",
+                            "d": "GBP to USD"
+                        },
+                        {
+                            "s": "FX:USDJPY",
+                            "d": "USD to JPY"
+                        },
+                        {
+                            "s": "FX:USDCHF",
+                            "d": "USD to CHF"
+                        },
+                        {
+                            "s": "FX:AUDUSD",
+                            "d": "AUD to USD"
+                        },
+                        {
+                            "s": "FX:USDCAD",
+                            "d": "USD to CAD"
+                        }
+                        ],
+                        "originalTitle": "Forex"
+                    },
+                    {
+                        "title": "Futures",
+                        "symbols": [
+                        {
+                            "s": "BMFBOVESPA:ISP1!",
+                            "d": "S&P 500 Index Futures"
+                        },
+                        {
+                            "s": "BMFBOVESPA:EUR1!",
+                            "d": "Euro Futures"
+                        },
+                        {
+                            "s": "PYTH:WTI3!",
+                            "d": "WTI CRUDE OIL"
+                        },
+                        {
+                            "s": "BMFBOVESPA:ETH1!",
+                            "d": "Hydrous ethanol"
+                        },
+                        {
+                            "s": "BMFBOVESPA:CCM1!",
+                            "d": "Corn"
+                        }
+                        ],
+                        "originalTitle": "Futures"
+                    },
+                    {
+                        "title": "Bonds",
+                        "symbols": [
+                        {
+                            "s": "EUREX:FGBL1!",
+                            "d": "Euro Bund"
+                        },
+                        {
+                            "s": "EUREX:FBTP1!",
+                            "d": "Euro BTP"
+                        },
+                        {
+                            "s": "EUREX:FGBM1!",
+                            "d": "Euro BOBL"
+                        }
+                        ],
+                        "originalTitle": "Bonds"
+                    },
+                    {
+                        "title": "crypto",
+                        "symbols": []
+                    }
+                    ]
+                    }
+                );
+                </script>   
+        </div>
+        <!-- TradingView Widget END -->
+        <!-- Placeholder for live market widget -->
+        <div class="live-market-feed">
+            <iframe 
+                src="tradingviewwidget.html" 
+                width="100%" 
+                height="600" 
+                frameborder="0" 
+                allowfullscreen>
+            </iframe>
+        </div>
+        </div>
+
+        <!-- Educational Hub Section -->
+        
+        <h3>Educational Hub</h3>
+        <p>Learn at your own pace through beginner to advanced video tutorials, interactive guides, and weekly webinars. Whether you're new or refining your skills, our resources are tailored to turn knowledge into trading confidence.
+        </p>
+        
+        <!-- Community Insights Section -->
+        <h3>Community Insights</h3>
+        <p>Connect with a vibrant community of traders to share strategies, discuss trends, and gain practical insights. Participate in forums, Q&A sessions, and analyst discussions designed to help you grow with others.</p>
+        <p>
+            <a href="https://t.me/+-f3REuc1VURlMTdk" target="_blank" class="telegram-link">
+                <i class="fab fa-telegram fa-lg"></i> Join our Telegram channel
+            </a>
+        </p>
+        <p>
+            <a href="https://discord.gg/bUVshFHA" target="_blank" class="discord-link">
+                <i class="fab fa-discord fa-lg"></i> Join our Discord server
+            </a>
+        </p>
+    </section>
+    <section id="testimonials">
+        <h2>Testimonials</h2>
+        <div class="testimonials-container">
+            <div class="testimonial">
+                <p>"FXBeacon has completely transformed my trading journey. The resources and support are unmatched!"</p>
+                <h4>- Gabriel Mwangi</h4>
+            </div>
+            <div class="testimonial">
+                <p>"The educational hub is a game-changer. I feel more confident in my trades than ever before."</p>
+                <h4>- Derik Otieno</h4>
+            </div>
+            <div class="testimonial">
+                <p>"The community insights and strategy sessions have helped me grow as a trader. Highly recommend FXBeacon!"</p>
+                <h4>- Barak Katana</h4>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Get in Touch</h2>
+        <p>Reach out to us for any inquiries, feedback, or collaboration opportunities. We are here to support and guide you through your Forex trading journey.</p>
+        <div class="contact-container">
+            <div class="blank-column"></div>
+            <form id="contact-form">
+                <div class="name-fields">
+                    <div class="name-field">
+                        <label for="first-name">First Name: <span class="required">*</span></label>
+                        <input type="text" id="first-name" name="first-name" required placeholder="Enter your first name" />
+                    </div>
+                    <div class="name-field">
+                        <label for="last-name">Last Name: <span class="required">*</span></label>
+                        <input type="text" id="last-name" name="last-name" required placeholder="Enter your last name" />
+                    </div>
+                </div>
+                <label for="email">Email: <span class="required">*</span></label>
+                <input type="email" id="email" name="email" required placeholder="Enter your email" />
+
+                <!-- Phone Input -->
+                <label for="phone">Phone:</label>
+                <div class="phone-field">
+                    <select id="country-code" name="country-code">
+                        <option value="" disabled selected></option>
+                    </select>
+                    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" />
+                </div>
+
+                <label for="message">Message: <span class="required">*</span></label>
+                <textarea id="message" name="message" required placeholder="Enter your message"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+    <div class="footer-container">
+        <div class="footer-logo">
+            <h3>FXBeacon</h3>
+            <p>Empowering Smarter Financial Decisions.</p>
+        </div>
+        <nav class="footer-nav">
+            <ul>
+                <li><a href="#welcome">Welcome</a></li>
+                <li><a href="#our-services">Our Services</a></li>
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="#risk-disclosure">Risk Disclosure</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="footer-social">
+            <a href="https://www.facebook.com/profile.php?id=61575788025135" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+            <a href="https://x.com/FXBeacon025" target="_blank"><i class="fab fa-x-twitter fa-2x"></i></a> <!-- Updated to X logo -->
+            <a href="https://www.linkedin.com/in/fxbeacon-kabuna-510333365/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+            <a href="https://www.instagram.com/fxbeacon025/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2025 Daniel Kabuna. All rights reserved.</p>
+    </div>
+</footer>
+    <script src="script.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+</body>
+</html>
