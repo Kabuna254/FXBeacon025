@@ -5,7 +5,6 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    word-spacing: 0.1em; /* Adjust the spacing between words */
 }
 
 /* Default styles for desktop (large screens) */
@@ -15,21 +14,22 @@ header, section, footer {
 
 header {
     display: flex;
-    justify-content: space-between; /* Distribute space evenly */
-    align-items: center; /* Align items vertically */
-    padding: 20px 60px; /* Increase left and right padding by 40px */
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
     background-color: #f4f4f4;
 }
 
 .logo {
-    text-align: left; /* Align the logo to the left */
-    font-size: 1.5rem; /* Adjust logo size */
-    font-weight: bold; /* Make the logo bold */
-}
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: left;
+    }
 
 .hamburger-wrapper {
-    display: flex;
-    justify-content: center; /* Center the hamburger menu */
+    position: relative;
+    display: flex;/*inline-block;*/
+    justify-content: center;
 }
 
 .hamburger-menu {
@@ -100,23 +100,23 @@ header {
 
 /* Default styles for the Contact Us button */
 .contact-btn {
-    text-align: right; /* Align the button to the right */
-    padding: 10px 20px; /* Same padding as Learn More button */
-    background-color: #00471C; /* Same background color */
-    color: white; /* Same text color */
+    padding: 10px 20px; /* Consistent padding for the button */
+    background-color: #00471C; /* Button background color */
+    color: white; /* Button text color */
     border: none; /* Remove border */
-    border-radius: 5px; /* Same rounded corners */
+    border-radius: 5px; /* Add rounded corners */
     cursor: pointer; /* Pointer cursor on hover */
-    font-size: 1em; /* Same font size */
+    font-size: 1em; /* Consistent font size */
+    text-align: center; /* Center-align text */
     text-transform: uppercase; /* Capitalize text */
     transition: background-color 0.3s ease; /* Smooth hover effect */
-    width: auto;
-    display: inline-block; /* Allow the button to be inline */
+    width: auto; /* Ensure the button width adjusts to its content */
+    display: inline-block; /* Prevent the button from stretching */
 }
 
-/* Hover effect for Contact Us button */
+/* Hover effect for the Contact Us button */
 .contact-btn:hover {
-    background-color: #0056b3; /* Same hover effect as Learn More button */
+    background-color: #0056b3; /* Change background color on hover */
 }
 
 #welcome {
@@ -143,7 +143,6 @@ header {
     line-height: 1.6;
     color: #555;
     margin-bottom: 20px;
-    word-spacing: 0.05em; /* Reduce word spacing for these sections */
 }
 
 .learn-more-btn {
@@ -275,7 +274,6 @@ header {
     font-size: 1.2em; /* Match paragraph font size */
     line-height: 1.6; /* Improve line spacing */
     text-align: justify; /* Block format for the text */
-    word-spacing: 0.05em; /* Reduce word spacing for these sections */
 }
 
 .about-us-image {
@@ -334,7 +332,6 @@ header {
     max-width: 45%; /* Match the column width of the services section */
     margin-bottom: 20px; /* Add spacing between rows */
     text-align: justify; /* Align text in block format */
-    word-spacing: 0.05em; /* Reduce word spacing for these sections */
 }
 
 .risk-column p {

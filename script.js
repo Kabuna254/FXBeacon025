@@ -1,7 +1,7 @@
 function toggleMenu() {
-    const menu = document.querySelector('.nav-menu');
-    const isOpen = menu.getAttribute('data-expanded') === 'true';
-    menu.setAttribute('data-expanded', !isOpen);
+    const navMenu = document.querySelector('.nav-menu');
+    const isExpanded = navMenu.getAttribute('data-expanded') === 'true';
+    navMenu.setAttribute('data-expanded', !isExpanded);
 }
 
 // Close the menu when clicking outside
